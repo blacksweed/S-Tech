@@ -1,0 +1,103 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("trafic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.h1-content{
+  
+    background-color: rgb(170, 80, 80);
+    color:white;
+
+
+}
+.h2-content{
+
+  background-color: rgb(170, 80, 80);
+  color: white;
+}
+.h3-content{
+    margin-top: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.p-content{
+ color: white;
+ justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.map {
+  width: 600px;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #555;
+  color: #fff;
+}
+ul li a {
+  background-color: #f44336; /* Warna background merah untuk nomor darurat */
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
