@@ -153,4 +153,13 @@ html{
   .img-color{
     color: blueviolet;
   }
+
+@media screen and (max-width: 768px) {
+    main.responsive-columns {
+        flex-direction: column;
+    }
+    section {
+        margin: 10px 0;
+    }
+}
   
