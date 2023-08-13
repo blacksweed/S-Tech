@@ -154,12 +154,24 @@ html{
     color: blueviolet;
   }
 
-@media screen and (max-width: 768px) {
-    main.responsive-columns {
-        flex-direction: column;
+/* Media query untuk perangkat dengan lebar maksimal 768px (ponsel dan tablet) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Mengurangi ukuran font */
     }
-    section {
-        margin: 10px 0;
+
+    header h1 {
+        font-size: 24px; /* Mengurangi ukuran font judul */
+    }
+
+    nav ul li a {
+        padding: 8px; /* Mengurangi padding menu navigasi */
+    }
+
+    /* Penyesuaian ukuran gambar */
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
   
