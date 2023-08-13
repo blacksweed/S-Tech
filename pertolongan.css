@@ -182,4 +182,16 @@
   footer p {
     color: #fff;
   }
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .h2-vidio {
+        font-size: 1.5rem;
+    }
+}
   
